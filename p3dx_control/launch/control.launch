@@ -21,5 +21,4 @@
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
     <remap from="/joint_states" to="/joint_states" />
   </node>
-
 </launch>
