@@ -8,7 +8,7 @@
 
     <!-- Spawn robot-->
     <group ns="$(arg ns)">
-        <param name="tf_prefix" value="$(arg ns)_tf" />
+        <param name="tf_prefix" value="$(arg ns)" />
         <include file="$(find p3dx_gazebo)/launch/spawn.launch">
             <arg name="name" value="$(arg ns)" />
             <arg name="x" value="$(arg x)" />

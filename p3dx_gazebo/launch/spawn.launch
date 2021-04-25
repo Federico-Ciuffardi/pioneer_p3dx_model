@@ -24,7 +24,7 @@
             <arg name="x" value="$(arg x)" />
             <arg name="y" value="$(arg y)" />
             <arg name="namespace_arg" value="$(arg namespace_arg)" />
-            <arg name="tfprefix" value="$(arg namespace_arg)_tf"/>
+            <arg name="tfprefix" value="$(arg namespace_arg)"/>
         </include>
 
 </launch>
